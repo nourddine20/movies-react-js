@@ -32,19 +32,21 @@ function App() {
     <div className="App">
        <Router>
               <Nav/>
-           
-              <Route exact path="/" component={Home} >
+           <Switch>
+                <Route exact path="/" component={Home} >
                  
-              </Route>
-
-              <Route exact path="/movie-details/:id" component={Moviedetails}>
-             
-              </Route>
-
-              <Route exact path="/searchmovie/:movietitle" component={Searchmovie}>
+                 </Route>
+   
+                 <Route exact path="/movie-details/:id" component={Moviedetails}>
                 
-              </Route>
-
+                 </Route>
+   
+                 <Route exact path="/searchmovie/:movietitle" component={Searchmovie}>
+                   
+                 </Route>
+   
+           </Switch>
+             
           </Router>
           
       
