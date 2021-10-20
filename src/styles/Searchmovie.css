@@ -1,0 +1,52 @@
+
+.box_search_movie{
+    background-color:rgb(0, 0, 0);
+    color: snow;
+}  
+
+.box_search_movie header{
+    display: flex;
+    background-color: rgb(20,20, 20);
+    flex-direction: column;
+   
+}
+
+.box_search_movie header h3{
+    align-self: flex-start;
+    
+}
+
+.box_search_movie header .basic_filter_search{
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width:50vw;
+    
+}
+
+.box_search_movie header .basic_filter_search span{
+    padding:2px;
+    /* border-bottom: 2px solid #CC0710; */
+    cursor: pointer;
+    background-color: rgb(20,20, 20);
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     padding: 8px;
+     width:100px;
+     text-align: center;
+}
+
+.box_search_movie header .basic_filter_search .activespan{
+    background-color: rgb(0, 0, 0);
+}
+
+.list_search_movie .articlemovie .title{
+    font-weight: bolder;
+    
+}
+
+.box_filter{
+    align-self: flex-start;
+    background-color: rgb(207, 27, 27);
+}
