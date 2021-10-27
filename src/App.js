@@ -33,7 +33,7 @@ function App() {
        <Router>
               <Nav/>
            <Switch>
-                <Route exact path="/" component={Home} >
+                <Route exact path="/movies-react-js/" component={Home} >
                  
                  </Route>
    
