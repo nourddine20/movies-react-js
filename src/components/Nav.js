@@ -52,7 +52,7 @@ export default class Nav extends Component {
         </div>
 
         <ul className="navhead">
-                    <li> <Link to="/">الرئيسية</Link></li>
+                    <li> <Link to="/movies-react-js/">الرئيسية</Link></li>
                     <li><a href="#">قائمة الافلام</a></li>
                     <li><a href="#">اتصل بنا</a></li>
                     
